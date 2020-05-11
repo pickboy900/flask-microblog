@@ -1,6 +1,5 @@
-
 from flask import Flask
 
 app = Flask(__name__)
 
-from app imrort routes
+from main_app import routes
