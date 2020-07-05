@@ -6,3 +6,5 @@ from main_app.models import User, Post
 def make_shell_context():
     return {'User': User, 'Post': Post, 'db': db}
 
+if __name__ == '__main__':
+    app.run(debug=True)
